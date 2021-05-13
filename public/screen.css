@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 13px / 1 sans-serif;
 }
 
 html {
@@ -9,4 +9,47 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(250, 251, 251);
+}
+
+header {
+  background-color: rgb(254, 254, 254);
+  opacity: 1;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  text-decoration: underline;
+}
+
+ul {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+article.pic {
+  border-style: solid;
+  border-color: rgb(213, 214, 214);
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 4rem;
+  float: left;
+}
+
+ul.numbertext {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
 }
