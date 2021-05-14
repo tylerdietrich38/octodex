@@ -323,8 +323,18 @@ section {
 
 footer {
   position: bottom;
+  bottom: 10px;
+  width: 80%;
+  align-items: center;
   color: rgb(102, 108, 116);
   border-top: solid;
   border-width: 1px;
   border-color: rgb(213, 214, 214);
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
