@@ -77,7 +77,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -97,7 +97,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -117,7 +117,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -137,7 +137,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -145,7 +145,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -165,7 +165,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -185,7 +185,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -205,7 +205,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -225,7 +225,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -245,7 +245,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -265,7 +265,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -285,7 +285,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -305,7 +305,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   color: rgb(95, 102, 110);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Alliance No.1', sans-serif;
 }
 
@@ -336,5 +336,11 @@ footer {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
   }
 }
